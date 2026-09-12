@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/motionframe-ai/', // Sesuaikan dengan nama repository GitHub kamu nanti!
+  base: '/motionframe-ai/', // <-- TAMBAHKAN BARIS INI (sesuai nama repo)
 })
